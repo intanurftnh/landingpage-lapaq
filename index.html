@@ -3,51 +3,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/style.css">
     <title>LapaQ</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="script.js"></script>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navi">
-        <img class="logoLapaq" src="https://i.imgur.com/iE8zv0r.png"/>
-        <a href="#formulir" class="toForm"><button class="login">Daftar</button></a>
-        </div>
-    </nav>
-    <div class="text">
-        <h1>Situs Jual Beli Online</h1>
-        <p class="description">Penjualan beragam produk terlengkap dan termurah dengan pengiriman ke seluruh Indonesia</p>
-    </div>
-    <div class="promosi">
-        <img src="https://i.imgur.com/O0gEX1k.jpg"/>
-    </div>
-    <p class="description">Daftarkan tokomu dan nikmati fitur aplikasi untuk memudahkan penjualan</p>
-    <div class="promosi">
-        <img src="https://i.imgur.com/AXRB66U.jpg"/>
-    </div>
-    <h2 id="formulir">Daftar akun</h2>
-    <div class="formLogin">
-    <form id="dataDiri">
-        <label for="nama">Nama :</label><br/>
-        <input id="name" type="text" name="nama"><br/>
-        <label for="kota">Kota Asal :</label> <br/>
-        <input id="city" type="text" name="kota"><br/>
-        <label for="telepon">Nomor Telepon :</label> <br/>
-        <input id="zip-code" type="number" name="telepon"><br/>
-        <label for="email">Alamat Email :</label> <br/>
-        <input id="email" type="email" name="email"><br/>
-        <label for="password">Password :</label> <br/>
-        <input id="password" type="password" name="password"><br/>
-        <input id="status" type="checkbox"/>
-        <label id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label><br/>
-        <button id="submit-form" type="submit">Submit</button>
-        <div id="warning"></div>
-    </form>
-    </div>
-    <footer>
-        <a href="https://skilvul.com" class="skilvul">
-            <img class="logoSkilvul" src="https://skilvul.com/static/skilvul-logo-white.svg"/>
-        </a>
-    </footer>
+    <section>
+        <section class="container">
+            <section class="nav">
+                <img src="./asset/images/LapaQ_Forum.jpg" width="390px" style="position: absolute;"/>
+                <div class="nav-left">
+                    <div class="search">
+                        <img src="./asset/images/icon_search.png"/>
+                    </div>
+                    <div class="search-box">
+                        <input type="search" placeholder="input search text">
+                    </div>
+                </div>
+                <div class="nav-right">
+                    <div class="chat">
+                        <a href="https://skilvul.com"><img src="./asset/images/icon_chat.png"/></a>
+                    </div>
+                </div>
+            </section>
+            <section class="profile">
+                <div class="card-profile">
+                    <div class="logo-profile">
+                        <img src="./asset/images/LapaQ - Logo toko.jpg"/>
+                    </div>
+                    <div class="desc-profile">
+                        <h1>Sabrina Hijab Fashion</h1>
+                        <h2>Rp 2.000.000</h2>
+                    </div>
+                </div>
+            </section>
+            <section class="product">
+                <section class="title-product">
+                    <h1>Produk Saya</h1>
+                </section>
+                <section class="nav-product">
+                    <p>Abjad A-Z</p>
+                    <p>Terbaru</p>
+                    <p>Terlama</p>
+                    <p>Terlaris</p>
+                </section>
+                <section class="list-product">
+                    <section class="box-product">
+                        <div class="card-product">
+                            <div class="img-product">
+                                <img src="./asset/images/LapaQ - Foto produk_9.jpg"/>
+                            </div>
+                            <div class="desc-product">
+                                <h1>Cincin Aksesoris</h1>
+                                <p>Rp 10.000</p>
+                            </div>
+                        </div>
+                        <div class="card-product">
+                            <div class="img-product">
+                                <img src="./asset/images/LapaQ - Foto produk_8.jpg"/>
+                            </div>
+                            <div class="desc-product">
+                                <h1>Handuk Unisex</h1>
+                                <p>Rp 80.000</p>
+                            </div>
+                        </div>
+                        <div class="card-product">
+                            <div class="img-product">
+                                <img src="./asset/images/LapaQ - Foto produk_7.jpg"/>
+                            </div>
+                            <div class="desc-product">
+                                <h1>Hijab Phasmina</h1>
+                                <p>Rp 30.000</p>
+                            </div>
+                        </div>
+                        <div class="card-product">
+                            <div class="img-product">
+                                <img src="./asset/images/LapaQ - Foto produk_5.jpg"/>
+                            </div>
+                            <div class="desc-product">
+                                <h1>Jaket wanita lembut</h1>
+                                <p>Rp 150.000</p>
+                            </div>
+                        </div>
+                        <div class="card-product">
+                            <div class="img-product">
+                                <img src="./asset/images/LapaQ - Foto produk_4.jpg"/>
+                            </div>
+                            <div class="desc-product">
+                                <h1>Kacamata minus</h1>
+                                <p>Rp 105.500</p>
+                            </div>
+                        </div>
+                        <div class="card-product">
+                            <div class="img-product">
+                                <img src="./asset/images/LapaQ - Foto produk_1.jpg"/>
+                            </div>
+                            <div class="desc-product">
+                                <h1>Kaos polos pria</h1>
+                                <p>Rp 50.000</p>
+                            </div>
+                        </div>
+                        <div class="card-product">
+                            <div class="img-product">
+                                <img src="./asset/images/LapaQ - Foto produk_6.jpg"/>
+                            </div>
+                            <div class="desc-product">
+                                <h1>Makeup set wardah</h1>
+                                <p>Rp 109.500</p>
+                            </div>
+                        </div>
+                        <div class="card-product">
+                            <div class="img-product">
+                                <img src="./asset/images/LapaQ - Foto produk_3.jpg"/>
+                            </div>
+                            <div class="desc-product">
+                                <h1>Sepatu olahraga</h1>
+                                <p>Rp 200.000</p>
+                            </div>
+                        </div>
+                        <div class="card-product">
+                            <div class="img-product">
+                                <img src="./asset/images/LapaQ - Foto produk_2.jpg"/>
+                            </div>
+                            <div class="desc-product">
+                                <h1>Topi gaya pria</h1>
+                                <p>Rp 75.000</p>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+            </section>
+            <section class="help">
+                <section class="help-title">
+                    <h1>Pusat Bantuan</h1>
+                </section>
+                <section class="help-desc">
+                    <p>Tanyakan pertanyaanmu mengenai usaha atau produk, sistem akan membantu dan menjawab maksimal 24 jam</p>
+                </section>
+                <section class="help-form">
+                    <form action="#" method="post" id="helpForm">
+                        <div>
+                            <label for="problemList">Masalah Terkait:</label><br>
+                            <select id="problemList" name="masalahTerkait">
+                                <option value="">Pilih masalah</option>
+                                <option value="manajemen_produk">Manajemen Produk</option>
+                                <option value="manajemen_keuangan">Manajemen Keuangan</option>
+                                <option value="proses_transaksi">Proses transaksi</option>
+                                <option value="chat">Chat</option>
+                                <option value="masalah_lainnya">Masalah Lainnya</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="deskripsiMasalah">Deskripsi Permasalahan:</label><br>
+                            <textarea id="deskripsiMasalah" name="deskripsiMasalah" rows="4" cols="50" placeholder="Tuliskan pertanyaan dan jelaskan permasalahan anda"></textarea>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="persetujuan" name="persetujuan">
+                            <label for="persetujuan">Saya menyetujui ketentuan yang berlaku.</label>
+                        </div>
+                        <div>
+                            <button type="button" id="submitButton">Kirim</button>
+                        </div>
+                    </form>
+                    <p id="validationMessage"></p>           
+                </section>
+            </section>
+            <section class="menu-bar">
+                <section class="icon-menu">
+                    <a href="https://skilvul.com"><img src="./asset/images/icon_menu.png" alt="homepage"/></a>
+                    <a href="https://skilvul.com"><img src="./asset/images/icon_store.png" alt="toko saya"/></a>
+                    <a href="https://skilvul.com"><img src="./asset/images/icon_profil.png" alt="profil"/></a>
+                </section>
+            </section>
+        </section>
+    </section>
+    <script src="./asset/js/script.js"></script>
 </body>
 </html>
